@@ -1,0 +1,89 @@
+Differences between File System and Version Control System
+
+1. Purpose and Function
+File System:
+- Manages and organizes files and directories on a storage device
+- Provides basic operations like create, read, update, and delete files
+- Handles file permissions and access control
+- Focuses on current state of files only
+
+Version Control System (VCS):
+- Tracks changes to files over time
+- Maintains history of all modifications
+- Enables collaboration between multiple users
+- Allows reverting to previous versions
+
+2. Features
+File System:
+- Basic file operations (copy, move, rename, delete)
+- Directory structure organization
+- File metadata management (creation date, size, permissions)
+- No built-in version tracking
+
+Version Control System:
+- Complete change history
+- Branching and merging capabilities
+- Conflict resolution
+- Commit messages and documentation
+- Remote repository support
+- Collaboration tools
+
+3. Storage
+File System:
+- Stores only the current version of files
+- Limited to local storage device
+- No inherent backup mechanism
+
+Version Control System:
+- Stores multiple versions of files
+- Can be distributed across multiple locations
+- Built-in backup through remote repositories
+
+4. Collaboration
+File System:
+- Basic file sharing through network
+- No built-in conflict resolution
+- Limited concurrent access control
+
+Version Control System:
+- Multiple users can work simultaneously
+- Automatic conflict detection and resolution
+- Branch-based development
+- Code review capabilities
+
+5. Change Tracking
+File System:
+- No built-in change tracking
+- Only shows current state
+- Limited to file modification dates
+
+Version Control System:
+- Detailed change history
+- Who made what changes and when
+- Ability to compare versions
+- Commit messages explain changes
+
+6. Recovery
+File System:
+- Limited to system backups
+- No built-in version recovery
+- Deleted files are usually unrecoverable
+
+Version Control System:
+- Can restore any previous version
+- Branch recovery
+- Commit reversal
+- Complete project history
+
+7. Examples
+File System:
+- NTFS (Windows)
+- ext4 (Linux)
+- APFS (macOS)
+- FAT32
+
+Version Control System:
+- Git
+- Subversion (SVN)
+- Mercurial
+- Perforce
